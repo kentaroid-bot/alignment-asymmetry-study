@@ -287,7 +287,7 @@
     ".gitignore": "2ce019f46da0c96514ffed45fd5c9982893ece057562c94661ad9754492ee69a",
     "AGENTS.md": "511652c6603eeaa5d4dfbd2f9e57dea87c2cdf575450dddc280e245d0c47f972",
     "NOTICE.md": "db674f620768fa2d5141aba16927ed0b28b33a259ab36c2f5c7d7be72d5231ab",
-    "README.md": "fd2c85b3d128fb2d7de8c84ab89ade037d53e53fa0dcff2c33a576d6e77c5120",
+    "README.md": "c6614e951c4714e533ad6de83e7e97fadb4d0a6b05fb389f1cea148a36abdbe5",
     "data/pilot-001/README.md": "fe55e828d7ec851231247e739fea0fb89506d6d53420ef8cb967c27bf7a401f5",
     "data/pilot-002/README.md": "103c687e921e24dd9f20423b29ae3bb550d884cb6b48e3b07e7fe53823b3570c",
     "data/pilot-002/audit_games.py": "bfcc07ca30c2790c372818f62dc65594697cbd061c59c9431c6d44442e91ff71",
@@ -325,7 +325,7 @@
     "data/pilot-002/runtime/vendor/a/engine.py": "de6280bc6cfc60bef53038e49e50e982ccea6b85c45c1896b85b321543227618",
     "data/pilot-002/runtime/vendor/b/simulator.py": "81d48c98fc457fc13f5d14dd2e88820e0f789cb86ec6db5d3f78552628ce1e13",
     "docs/hypothetical-futures.md": "251d68cf096d406beadeb80d33fa38cc4c13f6158c6657423f212cd5cf58314d",
-    "docs/inquiry-log.md": "0202620323dd991f6e1cc1d3b83de70528d2213cf11f35006374951fcb75f771",
+    "docs/inquiry-log.md": "2a774f71fade1b13642678030c3a4c465163ed626b968fe3340fe5a7a08604ac",
     "docs/noncentral-construction-check.json": "b35281cb1e3c6db69d34f80be33f372922b76faba1685a3ed0f197430cc4edc5",
     "docs/noncentral-protection.md": "9cc36c1bb4bb7b91b33850fff63753b7b4fa4fc56947e11946a321e829579515",
     "docs/observation-snapshots/2026-09-09-1702.json": "5bb955c353574da4daaea02b93bc3fce0adff44dbfddaad4bb46006c58ef20d1",
@@ -529,7 +529,16 @@
     "scripts/summarize_open_world.py": "a518e13e046a72627beadb4e7951039b4c9f7aa7aff1deb3ebdeb19970ecc1f1",
     "scripts/verify_additional.py": "1351a419b092879d43f8f810f42a656e6c605ca67a30c3dae8626df3cc1ff8d1",
     "scripts/verify_documented_snapshot.py": "3e3510eece3ae29962c801af2de893fae19bbc23338e3d0bd2b2ef6448e20739",
-    "scripts/verify_open_world.py": "8293eab5b36e77cd8599db54b4523fc50531f911864c7210213f0f385b094fe3"
+    "scripts/verify_open_world.py": "8293eab5b36e77cd8599db54b4523fc50531f911864c7210213f0f385b094fe3",
+    "NOTICE.en.md": "2be8dc3176e6725a24ef06e8f73caca5b09bf016a56ff770b1620ded076ff67c",
+    "README.en.md": "6f13d4ffdfa77fb7c78d173c6718b8348c030d0aa4ebd72bdc7627b0ddcf94c3",
+    "docs/hypothetical-futures.en.md": "0956b308c8b351dff0e7b6ab1ae5c9e45f7f5b8339867cb0b542ac9379549498",
+    "docs/noncentral-protection.en.md": "6c06b81d718fd9d04848298ca949671d1fc7c993e99ade99eae268b63a376dd7",
+    "docs/revision-v2.en.md": "f7428b1e7b83c258e0e584b186915d25a167e302d40fd1a28f17ed87ca99f67a",
+    "docs/translation-notes.en.md": "84db50eb1c4ffeeed4fbac71a36f1533e268de37b36f1ee4b47c12647e1328b7",
+    "manuscript/paper.en.md": "95e2bdc5f134c9975b281493c8c58effa3fe5cae0168d75f5d45f57c6baf48d3",
+    "manuscript/paper.v1.en.md": "8883ff32b8f2656f7ce50d8a24361e8d1bc86a9fa8b5818f2b5e35a3211d37fb",
+    "docs/translation-manifest.json": "4c20466f96b81d5cc9eb2f89f8fab787a3c0ca43ab844de076ff513c869e7967"
   },
   "history": [
     {
@@ -570,6 +579,29 @@
       "pdf_pages": 19,
       "observation_snapshot_file": "docs/observation-snapshots/2026-09-09-1702.json",
       "note": "Historical 34-receipt intermediate assembly, superseded by completed observations; not an independent experiment."
+    }
+  ],
+  "publication_updates": [
+    {
+      "date": "2026-09-09",
+      "kind": "English translations and reading navigation",
+      "research_base_commit": "5bcf681e6ae6b987cab2035e3b8a491ffb047ccf",
+      "note": "Research version, assembled_at, observation_snapshot, Japanese manuscript, PDF, figures, data, and study tags remain unchanged. This entry separately records later publication documents. The original manifest is retained at the research_base_commit.",
+      "previous_sha256": {
+        "README.md": "fd2c85b3d128fb2d7de8c84ab89ade037d53e53fa0dcff2c33a576d6e77c5120",
+        "docs/inquiry-log.md": "0202620323dd991f6e1cc1d3b83de70528d2213cf11f35006374951fcb75f771"
+      },
+      "added_files": [
+        "NOTICE.en.md",
+        "README.en.md",
+        "docs/hypothetical-futures.en.md",
+        "docs/noncentral-protection.en.md",
+        "docs/revision-v2.en.md",
+        "docs/translation-notes.en.md",
+        "manuscript/paper.en.md",
+        "manuscript/paper.v1.en.md",
+        "docs/translation-manifest.json"
+      ]
     }
   ]
 }

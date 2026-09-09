@@ -1,5 +1,7 @@
 # Alignment Asymmetry Study
 
+日本語 | [English](README.en.md)
+
 **中央への権限集中なしに、侵害によって失われ得る問い・供給・活動を守り、続けられるか。** Unflatten Adaptive 0.3.2とAperture Mesh Protocolを対象に、その成立条件を検討する研究です。
 
 保護の成果には活動の改善と維持を含めます。UMHの完全排除や中央集権への一般的優越を必須条件にせず、攻撃側自身の利用が加害を強めないという開発基準も独立して評価します。
@@ -12,7 +14,8 @@
 
 ## 論文と版
 
-- [v2.0の日本語本文](manuscript/paper.ja.md)
+- [v2.0の日本語本文](manuscript/paper.ja.md) / [英語全文](manuscript/paper.en.md)
+- [初回v1.0の英語全文](manuscript/paper.v1.en.md)
 - [v2.0のPDF](output/pdf/alignment-asymmetry-study.pdf)
 - [確定した初回v1.0本文](https://github.com/kentaroid-bot/alignment-asymmetry-study/blob/d39d42bc8cd81e598ee0e8a8823671d6156805db/manuscript/paper.ja.md) / [初回PDF・11ページ](https://github.com/kentaroid-bot/alignment-asymmetry-study/blob/d39d42bc8cd81e598ee0e8a8823671d6156805db/output/pdf/alignment-asymmetry-study.pdf)
 - [v1.0からの改訂履歴](docs/revision-v2.md)

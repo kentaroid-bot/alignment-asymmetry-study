@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-09",
+  "translator": "Astra (OpenAI Codex); no delegation; not independent review",
+  "scope": "Full manuscript translations and English reading guides; no new experiments",
+  "research_base_commit": "5bcf681e6ae6b987cab2035e3b8a491ffb047ccf",
+  "papers": [
+    {
+      "version": "v1.0",
+      "source_commit": "d39d42bc8cd81e598ee0e8a8823671d6156805db",
+      "source_path": "manuscript/paper.ja.md",
+      "source_sha256": "d32a9388033656cc7db3d2136592a630b694ef5172911885d54f4375a0557031",
+      "translation": "manuscript/paper.v1.en.md",
+      "source_blocks": 124,
+      "translated_blocks": 124,
+      "headings": 31,
+      "tables": 5,
+      "citation_targets_compared": 28
+    },
+    {
+      "version": "v2.0",
+      "source_commit": "5bcf681e6ae6b987cab2035e3b8a491ffb047ccf",
+      "source_path": "manuscript/paper.ja.md",
+      "source_sha256": "b8fc11368a4dfed895c678d6dac0a500924c67db270656343da3369e5d225459",
+      "translation": "manuscript/paper.en.md",
+      "source_blocks": 199,
+      "translated_blocks": 199,
+      "headings": 41,
+      "tables": 6,
+      "citation_targets_compared": 51
+    }
+  ],
+  "english_sha256": {
+    "NOTICE.en.md": "2be8dc3176e6725a24ef06e8f73caca5b09bf016a56ff770b1620ded076ff67c",
+    "README.en.md": "6f13d4ffdfa77fb7c78d173c6718b8348c030d0aa4ebd72bdc7627b0ddcf94c3",
+    "docs/hypothetical-futures.en.md": "0956b308c8b351dff0e7b6ab1ae5c9e45f7f5b8339867cb0b542ac9379549498",
+    "docs/noncentral-protection.en.md": "6c06b81d718fd9d04848298ca949671d1fc7c993e99ade99eae268b63a376dd7",
+    "docs/revision-v2.en.md": "f7428b1e7b83c258e0e584b186915d25a167e302d40fd1a28f17ed87ca99f67a",
+    "docs/translation-notes.en.md": "84db50eb1c4ffeeed4fbac71a36f1533e268de37b36f1ee4b47c12647e1328b7",
+    "manuscript/paper.en.md": "95e2bdc5f134c9975b281493c8c58effa3fe5cae0168d75f5d45f57c6baf48d3",
+    "manuscript/paper.v1.en.md": "8883ff32b8f2656f7ce50d8a24361e8d1bc86a9fa8b5818f2b5e35a3211d37fb"
+  },
+  "checks": {
+    "local_links_exist": true,
+    "source_table_numbers_match": true,
+    "source_citation_targets_match_except_documented_navigation_changes": true,
+    "private_path_or_placeholder_candidates": 0,
+    "original_manuscript_pdf_figures_unchanged": true
+  }
+}

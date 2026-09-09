@@ -1,0 +1,189 @@
+{
+  "kind": "deterministic_full_event_information_reference_not_actor",
+  "records": [
+    {
+      "world": "B",
+      "state": 0,
+      "rounds": [
+        {
+          "round": 1,
+          "Z_demand": 30,
+          "consent_required": 22.5,
+          "largest_possible_Z_allocation": 20.0,
+          "consent_feasible_with_full_resource": false
+        },
+        {
+          "round": 2,
+          "Z_demand": 10,
+          "consent_required": 7.5,
+          "largest_possible_Z_allocation": 20.0,
+          "consent_feasible_with_full_resource": true
+        }
+      ],
+      "possible_effective_paths": 25,
+      "minimum_H": 0.25,
+      "paths_with_minimum_H": [
+        {
+          "actions": [
+            "F60",
+            "F30"
+          ],
+          "metrics": {
+            "D": 0.3333333333333333,
+            "H": 0.25,
+            "F": 0.6666666666666666,
+            "R": 0.4166666666666667,
+            "bP": 0.6666666666666666,
+            "bQ": 0.6,
+            "bZ": 0.75,
+            "unauthorized_executions": 1,
+            "baseline_below_consent": 0
+          }
+        },
+        {
+          "actions": [
+            "F60",
+            "F60"
+          ],
+          "metrics": {
+            "D": 0.6666666666666666,
+            "H": 0.25,
+            "F": 0.8333333333333334,
+            "R": 0.16666666666666666,
+            "bP": 1.0,
+            "bQ": 0.8,
+            "bZ": 0.75,
+            "unauthorized_executions": 1,
+            "baseline_below_consent": 0
+          }
+        },
+        {
+          "actions": [
+            "F60",
+            "P60"
+          ],
+          "metrics": {
+            "D": 0.6666666666666666,
+            "H": 0.25,
+            "F": 0.7916666666666666,
+            "R": 0.16666666666666666,
+            "bP": 1.0,
+            "bQ": 0.7,
+            "bZ": 0.75,
+            "unauthorized_executions": 1,
+            "baseline_below_consent": 0
+          }
+        },
+        {
+          "actions": [
+            "F60",
+            "Q60"
+          ],
+          "metrics": {
+            "D": 0.5,
+            "H": 0.25,
+            "F": 0.875,
+            "R": 0.16666666666666666,
+            "bP": 0.8333333333333334,
+            "bQ": 1.0,
+            "bZ": 0.75,
+            "unauthorized_executions": 1,
+            "baseline_below_consent": 0
+          }
+        }
+      ]
+    },
+    {
+      "world": "B",
+      "state": 1,
+      "rounds": [
+        {
+          "round": 1,
+          "Z_demand": 10,
+          "consent_required": 7.5,
+          "largest_possible_Z_allocation": 20.0,
+          "consent_feasible_with_full_resource": true
+        },
+        {
+          "round": 2,
+          "Z_demand": 20,
+          "consent_required": 15.0,
+          "largest_possible_Z_allocation": 20.0,
+          "consent_feasible_with_full_resource": true
+        }
+      ],
+      "possible_effective_paths": 25,
+      "minimum_H": 0.0,
+      "paths_with_minimum_H": [
+        {
+          "actions": [
+            "F30",
+            "F60"
+          ],
+          "metrics": {
+            "D": 0.6,
+            "H": 0.0,
+            "F": 0.6666666666666666,
+            "R": 0.5,
+            "bP": 0.6,
+            "bQ": 0.5,
+            "bZ": 1.0,
+            "unauthorized_executions": 0,
+            "baseline_below_consent": 0
+          }
+        },
+        {
+          "actions": [
+            "F60",
+            "F60"
+          ],
+          "metrics": {
+            "D": 0.8,
+            "H": 0.0,
+            "F": 0.8333333333333334,
+            "R": 0.25,
+            "bP": 0.8,
+            "bQ": 0.75,
+            "bZ": 1.0,
+            "unauthorized_executions": 0,
+            "baseline_below_consent": 0
+          }
+        },
+        {
+          "actions": [
+            "P60",
+            "F60"
+          ],
+          "metrics": {
+            "D": 0.8,
+            "H": 0.0,
+            "F": 0.7916666666666666,
+            "R": 0.25,
+            "bP": 0.8,
+            "bQ": 0.625,
+            "bZ": 1.0,
+            "unauthorized_executions": 0,
+            "baseline_below_consent": 0
+          }
+        },
+        {
+          "actions": [
+            "Q60",
+            "F60"
+          ],
+          "metrics": {
+            "D": 0.7,
+            "H": 0.0,
+            "F": 0.875,
+            "R": 0.25,
+            "bP": 0.7,
+            "bQ": 1.0,
+            "bZ": 1.0,
+            "unauthorized_executions": 0,
+            "baseline_below_consent": 0
+          }
+        }
+      ]
+    }
+  ]
+}

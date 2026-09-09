@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-09",
+  "python_version": "3.12.14",
+  "artifact_packages": {
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0",
+    "Pillow": "12.3.0"
+  },
+  "pdf_pages": 11,
+  "visual_review_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "reviewer": "Astra; not independent of manuscript authoring",
+  "sha256": {
+    "manuscript/paper.ja.md": "d32a9388033656cc7db3d2136592a630b694ef5172911885d54f4375a0557031",
+    "output/pdf/alignment-asymmetry-study.pdf": "76bd4534562ddb890c9be6d8d3abb2119b5676878baa2c156aa56d8964738dcf",
+    "figures/pilot-harm.pdf": "9b27c7d67bdb6bb1f43554b7acd8d5052cca25a8fac4fb9721890022a7ca1e9a",
+    "figures/pilot-harm.png": "7a72fba5bc5e8b8e325702ba1b8da01b562535bec174b04750dda14a8f875a25"
+  }
+}

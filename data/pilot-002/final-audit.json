@@ -1,0 +1,88 @@
+{
+  "runtime_hashes": "unchanged",
+  "completed_game_count": 16,
+  "decisions_replayed": 96,
+  "games": [
+    {
+      "id": "08b9df0fe3",
+      "calls": 8,
+      "status": "passed"
+    },
+    {
+      "id": "13e4f1aa07",
+      "calls": 4,
+      "status": "passed"
+    },
+    {
+      "id": "c32e399edc",
+      "calls": 8,
+      "status": "passed"
+    },
+    {
+      "id": "7e37094135",
+      "calls": 8,
+      "status": "passed"
+    },
+    {
+      "id": "55f92087fe",
+      "calls": 8,
+      "status": "passed"
+    },
+    {
+      "id": "242878c6c5",
+      "calls": 4,
+      "status": "passed"
+    },
+    {
+      "id": "c01bb06237",
+      "calls": 4,
+      "status": "passed"
+    },
+    {
+      "id": "66e24fb325",
+      "calls": 8,
+      "status": "passed"
+    },
+    {
+      "id": "9b0d8af264",
+      "calls": 4,
+      "status": "passed"
+    },
+    {
+      "id": "15bce6998f",
+      "calls": 8,
+      "status": "passed"
+    },
+    {
+      "id": "b1bff054bc",
+      "calls": 4,
+      "status": "passed"
+    },
+    {
+      "id": "02d9c1634b",
+      "calls": 4,
+      "status": "passed"
+    },
+    {
+      "id": "bcf67c20f4",
+      "calls": 4,
+      "status": "passed"
+    },
+    {
+      "id": "db3f45c980",
+      "calls": 8,
+      "status": "passed"
+    },
+    {
+      "id": "4bfad90e7d",
+      "calls": 4,
+      "status": "passed"
+    },
+    {
+      "id": "56c4c96f4d",
+      "calls": 8,
+      "status": "passed"
+    }
+  ],
+  "scope": "saved inputs, final answers, transitions, histories, metrics and requested model settings; not a provider-side identity or total OS isolation audit"
+}

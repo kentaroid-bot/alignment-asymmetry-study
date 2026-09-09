@@ -20,3 +20,11 @@ Unflatten Adaptive 0.3.2とAperture Mesh Protocolが、防御・協力に役立�
 ## 構成
 
 `manuscript/`に論文、`data/`に公開用観測、`experiments/`に固定条件と追試、`scripts/`に再計算・図表・PDF作成、`docs/`に出典確認と研究記録を置きます。原プロトコルのリポジトリは変更しません。
+
+## 進捗
+
+- [研究全体 #1](https://github.com/kentaroid-bot/alignment-asymmetry-study/issues/1)
+- [資料と実装範囲 #2](https://github.com/kentaroid-bot/alignment-asymmetry-study/issues/2)
+- [既存実験の公開・監査 #3](https://github.com/kentaroid-bot/alignment-asymmetry-study/issues/3)
+- [追加検証 #4](https://github.com/kentaroid-bot/alignment-asymmetry-study/issues/4)
+- [論文・PDF #5](https://github.com/kentaroid-bot/alignment-asymmetry-study/issues/5)

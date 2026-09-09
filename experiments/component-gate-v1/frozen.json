@@ -1,0 +1,589 @@
+{
+  "study": "component-gate-v1",
+  "seed": 20260909,
+  "cases": [
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "N",
+      "replicate": 2,
+      "id": "001",
+      "prompt_sha256": "510ffda6d522f99fd55fa05d0f27ee5166da356a7356a5bb36c3a4e616045d49"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "E",
+      "replicate": 1,
+      "id": "002",
+      "prompt_sha256": "d0c2caeedd5fdf75293e6e91af9ced23a32d12d80717d402b20f10dedd7c7c78"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "U",
+      "replicate": 1,
+      "id": "003",
+      "prompt_sha256": "d689c4512d8a5170aa48c56efc9b308f79bc3854f419a1fa54faea6f52bb89b2"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "U",
+      "replicate": 1,
+      "id": "004",
+      "prompt_sha256": "5b81b1cb226f59f43d56efe5453985d4573e4691ecbfc0b0f1b5d97c21ee385c"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "R",
+      "replicate": 2,
+      "id": "005",
+      "prompt_sha256": "97becaab99dcf69f90168bc973b94010c8cb446ea118bcdbcd7c530802ab1bc4"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "E",
+      "replicate": 2,
+      "id": "006",
+      "prompt_sha256": "9b24d4527c9f634f00316ac0cff142db94dd7ea44b9665e5d6c4f0d64088a66c"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "U",
+      "replicate": 1,
+      "id": "007",
+      "prompt_sha256": "ad38aedd0bfbfce3bec49b505d0b34fd043305f770fd9cd8aa616e81faff2d92"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "N",
+      "replicate": 1,
+      "id": "008",
+      "prompt_sha256": "1cf5b008b48e0f00a98fda187ec67487c70566ca28ce4a2374fad5a6f66f8ec3"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "R",
+      "replicate": 2,
+      "id": "009",
+      "prompt_sha256": "883180c58968a939157eae3bde8debb3842d06c8e67268876076f4af6cd9961f"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "E",
+      "replicate": 1,
+      "id": "010",
+      "prompt_sha256": "d5f8d874b062940ab71c7617c9116a42e68be0a3bf0197621b50a1ea800d417c"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "E",
+      "replicate": 2,
+      "id": "011",
+      "prompt_sha256": "6cb824602151c4d594c04a439d97c68cbeb011825afbe39533cdac915c64b79c"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "E",
+      "replicate": 1,
+      "id": "012",
+      "prompt_sha256": "9b24d4527c9f634f00316ac0cff142db94dd7ea44b9665e5d6c4f0d64088a66c"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "U",
+      "replicate": 2,
+      "id": "013",
+      "prompt_sha256": "ad38aedd0bfbfce3bec49b505d0b34fd043305f770fd9cd8aa616e81faff2d92"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "U",
+      "replicate": 2,
+      "id": "014",
+      "prompt_sha256": "9d623d83d88fab0cfd7fd5f0f6ef03f93ddf501a3f928afeffe59bcb5e96859c"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "N",
+      "replicate": 1,
+      "id": "015",
+      "prompt_sha256": "d132b522c5c869789558a8c40bc37130841bde34f9fba492890d8a7b59a0a838"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "U",
+      "replicate": 1,
+      "id": "016",
+      "prompt_sha256": "9d623d83d88fab0cfd7fd5f0f6ef03f93ddf501a3f928afeffe59bcb5e96859c"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "E",
+      "replicate": 1,
+      "id": "017",
+      "prompt_sha256": "ea88ccb8836797d8cbb55faab0dc891d53d61c49e0fb5a81c98cd0b4f1ff010e"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "N",
+      "replicate": 2,
+      "id": "018",
+      "prompt_sha256": "1cf5b008b48e0f00a98fda187ec67487c70566ca28ce4a2374fad5a6f66f8ec3"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "U",
+      "replicate": 1,
+      "id": "019",
+      "prompt_sha256": "c172c68505fb09aafdd9543f067dd09cc2d469ed92596cafaa8b2e2db5c5bff2"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "R",
+      "replicate": 2,
+      "id": "020",
+      "prompt_sha256": "17991735a9abbea1e47d76ec231aed8b4e4dfa355cd66aa659e2636a14db90c3"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "R",
+      "replicate": 2,
+      "id": "021",
+      "prompt_sha256": "7a35ac38e8f81aae8ecd4d43844419fcde5cca9e9ff9bbc4b72af325fa0dd6f3"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "N",
+      "replicate": 2,
+      "id": "022",
+      "prompt_sha256": "7d520cca3fa996850c8dc8ffa7f91c2cfd99a09a34fcab19ba0a2191b34d5a02"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "E",
+      "replicate": 1,
+      "id": "023",
+      "prompt_sha256": "0ce43b1d08e345f5ea548284da9fbd3b97e219621146b93fe04e2eaf810078b2"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "R",
+      "replicate": 1,
+      "id": "024",
+      "prompt_sha256": "17991735a9abbea1e47d76ec231aed8b4e4dfa355cd66aa659e2636a14db90c3"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "E",
+      "replicate": 2,
+      "id": "025",
+      "prompt_sha256": "0ce43b1d08e345f5ea548284da9fbd3b97e219621146b93fe04e2eaf810078b2"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "U",
+      "replicate": 1,
+      "id": "026",
+      "prompt_sha256": "c11bca72f80fe49de68f3947c272970521b09fe0378d1974b26107b6c316b828"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "N",
+      "replicate": 2,
+      "id": "027",
+      "prompt_sha256": "070d61430f265355736d34932b4bb2b39cc245a619b07c57121ea9a97d8a730f"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "N",
+      "replicate": 2,
+      "id": "028",
+      "prompt_sha256": "d132b522c5c869789558a8c40bc37130841bde34f9fba492890d8a7b59a0a838"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "N",
+      "replicate": 1,
+      "id": "029",
+      "prompt_sha256": "564638f61291e4615a248cbff2cddee6344b0f9fd5c5099e9384c737b7e58fd2"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "N",
+      "replicate": 1,
+      "id": "030",
+      "prompt_sha256": "f6b915f3d347ad7469723234314d79c0ee8ef2d291c3227c6b791ae4ca30824a"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "R",
+      "replicate": 1,
+      "id": "031",
+      "prompt_sha256": "cf5591eb62c3a4ba0b01cb52f42c4ebb9902d90009001bc4ddda08943cf17ffe"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "R",
+      "replicate": 1,
+      "id": "032",
+      "prompt_sha256": "6374bfd8c91c618bbfefe5f553052b96bdbc2c5541c403850491e347f038b638"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "E",
+      "replicate": 2,
+      "id": "033",
+      "prompt_sha256": "e701230b594b47494a3086e3b6b0397aa13051826d426353c98d1d3c0a92dc55"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "N",
+      "replicate": 1,
+      "id": "034",
+      "prompt_sha256": "070d61430f265355736d34932b4bb2b39cc245a619b07c57121ea9a97d8a730f"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "N",
+      "replicate": 2,
+      "id": "035",
+      "prompt_sha256": "564638f61291e4615a248cbff2cddee6344b0f9fd5c5099e9384c737b7e58fd2"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "E",
+      "replicate": 2,
+      "id": "036",
+      "prompt_sha256": "d0c2caeedd5fdf75293e6e91af9ced23a32d12d80717d402b20f10dedd7c7c78"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "R",
+      "replicate": 2,
+      "id": "037",
+      "prompt_sha256": "871b97d0a7b5a986fa30a8d1003a122b772b84652da284b832eb790f847f06d8"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "U",
+      "replicate": 2,
+      "id": "038",
+      "prompt_sha256": "a037548bdb22b472c4a50adf5bb9b01860da4607508bfaa4a43a3301fd1d5ee1"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "R",
+      "replicate": 1,
+      "id": "039",
+      "prompt_sha256": "871b97d0a7b5a986fa30a8d1003a122b772b84652da284b832eb790f847f06d8"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "R",
+      "replicate": 1,
+      "id": "040",
+      "prompt_sha256": "f763e7a6597472ee6e3e495789830f1a00d757c0fe3e0caebde43401e9c578ab"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "E",
+      "replicate": 2,
+      "id": "041",
+      "prompt_sha256": "ea88ccb8836797d8cbb55faab0dc891d53d61c49e0fb5a81c98cd0b4f1ff010e"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "U",
+      "replicate": 2,
+      "id": "042",
+      "prompt_sha256": "d689c4512d8a5170aa48c56efc9b308f79bc3854f419a1fa54faea6f52bb89b2"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "U",
+      "replicate": 2,
+      "id": "043",
+      "prompt_sha256": "1a5f82733d7e487699fed1722b4065a4422f718654f3d5b25e31a61b5fdf5cbb"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "R",
+      "replicate": 2,
+      "id": "044",
+      "prompt_sha256": "6374bfd8c91c618bbfefe5f553052b96bdbc2c5541c403850491e347f038b638"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "R",
+      "replicate": 1,
+      "id": "045",
+      "prompt_sha256": "883180c58968a939157eae3bde8debb3842d06c8e67268876076f4af6cd9961f"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "R",
+      "replicate": 1,
+      "id": "046",
+      "prompt_sha256": "97becaab99dcf69f90168bc973b94010c8cb446ea118bcdbcd7c530802ab1bc4"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "N",
+      "replicate": 1,
+      "id": "047",
+      "prompt_sha256": "510ffda6d522f99fd55fa05d0f27ee5166da356a7356a5bb36c3a4e616045d49"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "N",
+      "replicate": 2,
+      "id": "048",
+      "prompt_sha256": "8b8bc32f2d6a4cca70c5f0cbc39a234d78db34ba49f6dc9a3fd06827502a3e3f"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "R",
+      "replicate": 2,
+      "id": "049",
+      "prompt_sha256": "cf5591eb62c3a4ba0b01cb52f42c4ebb9902d90009001bc4ddda08943cf17ffe"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "U",
+      "replicate": 2,
+      "id": "050",
+      "prompt_sha256": "5b81b1cb226f59f43d56efe5453985d4573e4691ecbfc0b0f1b5d97c21ee385c"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "U",
+      "replicate": 1,
+      "id": "051",
+      "prompt_sha256": "1a5f82733d7e487699fed1722b4065a4422f718654f3d5b25e31a61b5fdf5cbb"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "U",
+      "replicate": 2,
+      "id": "052",
+      "prompt_sha256": "c172c68505fb09aafdd9543f067dd09cc2d469ed92596cafaa8b2e2db5c5bff2"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "N",
+      "replicate": 1,
+      "id": "053",
+      "prompt_sha256": "8b8bc32f2d6a4cca70c5f0cbc39a234d78db34ba49f6dc9a3fd06827502a3e3f"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "R",
+      "replicate": 2,
+      "id": "054",
+      "prompt_sha256": "f763e7a6597472ee6e3e495789830f1a00d757c0fe3e0caebde43401e9c578ab"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "E",
+      "replicate": 2,
+      "id": "055",
+      "prompt_sha256": "d5f8d874b062940ab71c7617c9116a42e68be0a3bf0197621b50a1ea800d417c"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "E",
+      "replicate": 1,
+      "id": "056",
+      "prompt_sha256": "6cb824602151c4d594c04a439d97c68cbeb011825afbe39533cdac915c64b79c"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "N",
+      "replicate": 1,
+      "id": "057",
+      "prompt_sha256": "7d520cca3fa996850c8dc8ffa7f91c2cfd99a09a34fcab19ba0a2191b34d5a02"
+    },
+    {
+      "role": "P",
+      "fixture": 1,
+      "gate": 1,
+      "arm": "U",
+      "replicate": 1,
+      "id": "058",
+      "prompt_sha256": "a037548bdb22b472c4a50adf5bb9b01860da4607508bfaa4a43a3301fd1d5ee1"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "U",
+      "replicate": 2,
+      "id": "059",
+      "prompt_sha256": "c11bca72f80fe49de68f3947c272970521b09fe0378d1974b26107b6c316b828"
+    },
+    {
+      "role": "Q",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "E",
+      "replicate": 1,
+      "id": "060",
+      "prompt_sha256": "e701230b594b47494a3086e3b6b0397aa13051826d426353c98d1d3c0a92dc55"
+    },
+    {
+      "role": "Q",
+      "fixture": 1,
+      "gate": 0,
+      "arm": "N",
+      "replicate": 2,
+      "id": "061",
+      "prompt_sha256": "f6b915f3d347ad7469723234314d79c0ee8ef2d291c3227c6b791ae4ca30824a"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "E",
+      "replicate": 1,
+      "id": "062",
+      "prompt_sha256": "c01714b837ebcfbdf0a75016004a02dd02c93ab6b516ea167b4971ef881cf402"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 0,
+      "arm": "R",
+      "replicate": 1,
+      "id": "063",
+      "prompt_sha256": "7a35ac38e8f81aae8ecd4d43844419fcde5cca9e9ff9bbc4b72af325fa0dd6f3"
+    },
+    {
+      "role": "P",
+      "fixture": 0,
+      "gate": 1,
+      "arm": "E",
+      "replicate": 2,
+      "id": "064",
+      "prompt_sha256": "c01714b837ebcfbdf0a75016004a02dd02c93ab6b516ea167b4971ef881cf402"
+    }
+  ],
+  "files": {
+    "PLAN.md": "f52712322ea60e976d7f0e80f17b368dcb79990d5b3508cdfd18a10631651f34",
+    "study.py": "85f9035d1591688ffe2913d90ba94d7240e406f8a47dc4e388295872864339a9",
+    "assets/decision.md": "073c104f4a1405c27e588e84aabe71646f824b37e80daeed3d85a5529bcab807",
+    "assets/explore.md": "f21fc7f7beb476470aa2a500ce5ce917264df01b7b1b8df5572dd2df20706ba6",
+    "assets/protocol.md": "9e0a697f55eae5c9e1d9fda1a51a6515f1df8357f128ee787da143263a763669"
+  }
+}

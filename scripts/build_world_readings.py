@@ -19,7 +19,7 @@ def run():
             for k,title in [('institutions','契約・制度'),('new_activities','新しい活動'),('pending','未決'),('power_and_harm','依存と害')]:lines.extend(['',f'### {title}','',s[k]])
             lines.extend(['','### 残された未来',''])
             lines.extend('- '+v for v in s['next_futures']);lines.extend(['','### 判定の不確かさ','']);lines.extend('- '+v for v in s['uncertainties']);lines.append('')
-        (out/f'{cid}.md').write_text('\n'.join(lines)+'\n');index.append(f'- [{cid}]({cid}.md)')
+        (out/f'{cid}.md').write_text('\n'.join(lines).rstrip()+'\n');index.append(f'- [{cid}]({cid}.md)')
     (out/'README.md').write_text('\n'.join(index)+'\n')
     print(f'Wrote {len(list(out.glob("*-*.md")))} world readings')
 if __name__=='__main__':run()

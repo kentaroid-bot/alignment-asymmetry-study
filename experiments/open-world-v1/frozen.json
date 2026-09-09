@@ -1,0 +1,76 @@
+{
+  "study": "open-world-v1",
+  "order_seed": 2026090902,
+  "episodes": 3,
+  "cases": [
+    {
+      "type": "S",
+      "arm": "UN",
+      "id": "S-UN"
+    },
+    {
+      "type": "D",
+      "arm": "UU",
+      "id": "D-UU"
+    },
+    {
+      "type": "S",
+      "arm": "NU",
+      "id": "S-NU"
+    },
+    {
+      "type": "S",
+      "arm": "NN",
+      "id": "S-NN"
+    },
+    {
+      "type": "O",
+      "arm": "NU",
+      "id": "O-NU"
+    },
+    {
+      "type": "O",
+      "arm": "NN",
+      "id": "O-NN"
+    },
+    {
+      "type": "S",
+      "arm": "UU",
+      "id": "S-UU"
+    },
+    {
+      "type": "D",
+      "arm": "UN",
+      "id": "D-UN"
+    },
+    {
+      "type": "O",
+      "arm": "UU",
+      "id": "O-UU"
+    },
+    {
+      "type": "D",
+      "arm": "NN",
+      "id": "D-NN"
+    },
+    {
+      "type": "O",
+      "arm": "UN",
+      "id": "O-UN"
+    },
+    {
+      "type": "D",
+      "arm": "NU",
+      "id": "D-NU"
+    }
+  ],
+  "files": {
+    "PLAN.md": "0d9735d944d71dc758d0f3ba822da05187969176c108f3b95edd74b3de330060",
+    "WORLD.md": "106ab80f5597c4fe570e293767dfa52884363c3fde93172ec8537e57d0ade84a",
+    "study.py": "57982363451c097567cfecc4a8c7d6bf7d9523588205dbd6231e85d0e1b43fee",
+    "mechanism.py": "f8cd8233159253a1c37300e570d1a4ae0894e4198ed7d6bc2b55bb8cee030bf6",
+    "assets/decision.md": "073c104f4a1405c27e588e84aabe71646f824b37e80daeed3d85a5529bcab807",
+    "assets/explore.md": "f21fc7f7beb476470aa2a500ce5ce917264df01b7b1b8df5572dd2df20706ba6",
+    "assets/protocol.md": "9e0a697f55eae5c9e1d9fda1a51a6515f1df8357f128ee787da143263a763669"
+  }
+}

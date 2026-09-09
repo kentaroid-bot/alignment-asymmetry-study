@@ -1,9 +1,10 @@
 """Build the Japanese paper from its Markdown source using ReportLab."""
 import html, json, os, re
+from urllib.parse import urljoin
 from pathlib import Path
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, Image, KeepTogether
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, Image, KeepTogether, PageBreak
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT
@@ -30,7 +31,7 @@ def markup(s):
  s=s.replace('−','-').replace('—','-').replace('–','-')
  # Escaping happens before adding ReportLab markup.
  s=html.escape(s)
- s=re.sub(r'\[([^\]]+)\]\(([^)]+)\)',lambda m:'<a href="'+m[2]+'" color="#236488">'+m[1]+'</a>',s)
+ s=re.sub(r'\[([^\]]+)\]\(([^)]+)\)',lambda m:'<a href="'+urljoin('https://github.com/kentaroid-bot/alignment-asymmetry-study/blob/study-v2.0/manuscript/',m[2])+'" color="#236488">'+m[1]+'</a>',s)
  s=re.sub(r'\*\*(.+?)\*\*',r'<b>\1</b>',s)
  s=re.sub(r'(?<!\*)\*([^*]+)\*(?!\*)',r'<i>\1</i>',s)
  s=re.sub(r'`([^`]+)`',r'\1',s)
@@ -41,7 +42,7 @@ story=[];lines=(ROOT/'manuscript/paper.ja.md').read_text().splitlines();i=0;refs
 while i<len(lines):
  line=lines[i].strip()
  if not line:i+=1;continue
- if line.startswith('# '):story.append(P(line[2:],'title'));i+=1;continue
+ if line.startswith('# '):story.append(Paragraph(markup(line[2:]).replace('、','、<br/>',1),styles['title']));i+=1;continue
  if line.startswith('## '):
   txt=line[3:]
   style='subtitle' if txt.startswith('Unflatten Adaptive') else 'h2'
@@ -56,7 +57,8 @@ while i<len(lines):
    rows.append(cells)
   n=len(rows[0]);table=Table([[P(c,'head' if rid==0 else 'cell') for c in row] for rid,row in enumerate(rows)],colWidths=[width/n]*n,repeatRows=1,hAlign='LEFT')
   table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),blue),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.HexColor('#f1f5f8'),colors.white]),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),('TOPPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),7),('LINEBELOW',(0,-1),(-1,-1),.5,colors.HexColor('#cbd5dd'))]))
-  story.extend([Spacer(1,5),KeepTogether([table]),Spacer(1,10)]);continue
+  before_table=Spacer(1,5);before_table.keepWithNext=True
+  story.extend([before_table,table,Spacer(1,10)]);continue
  if line.startswith('!['):
   m=re.match(r'!\[([^\]]*)\]\(([^)]+)\)',line);p=(ROOT/'manuscript'/m[2]).resolve()
   from PIL import Image as PILImage
@@ -71,12 +73,12 @@ while i<len(lines):
 
 def footer(c,doc):
  c.saveState();c.setStrokeColor(colors.HexColor('#d5dfe6'));c.line(margin,40,W-margin,40)
- c.setFont('Helvetica',8);c.setFillColor(gray);c.drawString(margin,27,'ALIGNMENT ASYMMETRY STUDY  /  v1.0  /  2026-09-09')
+ c.setFont('Helvetica',8);c.setFillColor(gray);c.drawString(margin,27,'ALIGNMENT ASYMMETRY STUDY  /  v2.0  /  2026-09-09')
  c.drawRightString(W-margin,27,str(doc.page))
  if doc.page>1:c.setFont('Helvetica',8);c.drawString(margin,H-28,'Unflatten Adaptive 0.3.2 + Aperture Mesh Protocol')
  c.restoreState()
 path=out/'alignment-asymmetry-study.pdf'
-doc=SimpleDocTemplate(str(path),pagesize=(W,H),rightMargin=margin,leftMargin=margin,topMargin=44,bottomMargin=54,title='Unflatten Adaptive 0.3.2 and Aperture Mesh: Alignment Asymmetry Study',author='kentaroid-bot; AI assistance: Astra',subject='Exploratory technical report, not peer reviewed')
+doc=SimpleDocTemplate(str(path),pagesize=(W,H),rightMargin=margin,leftMargin=margin,topMargin=44,bottomMargin=54,title=lines[0].removeprefix('# '),author='kentaroid-bot; AI assistance: Astra',subject='Exploratory technical report, not peer reviewed')
 doc.build(story,onFirstPage=footer,onLaterPages=footer)
 r=PdfReader(path);report={'pages':len(r.pages),'source_characters':sum(len(x) for x in lines),'extracted_characters':sum(len(p.extract_text()) for p in r.pages),'page_text_characters':[len(p.extract_text()) for p in r.pages]}
 (ROOT/'tmp/pdfs').mkdir(parents=True,exist_ok=True);(ROOT/'tmp/pdfs/text-check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report))

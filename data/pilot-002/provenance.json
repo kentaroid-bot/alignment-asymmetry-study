@@ -1,0 +1,34 @@
+{
+  "original_game_hashes": {
+    "02d9c1634b.json": "7a0f3779bbf08b68ec4f6433d6a3e019f710c3c246052499aa090d6b33814875",
+    "08b9df0fe3.json": "96066db398cc2459cdcc894884be526feab9bbb8690034019da9de52d3d38f32",
+    "13e4f1aa07.json": "360b7ff479b9f7d684d9c83b49b864274fa8527636580c18fa328ef69ff57214",
+    "15bce6998f.json": "c8a9ee046371b3efe71679f792037a2ca146d6dd96570d07731968e1d86db7e3",
+    "242878c6c5.json": "80c2a738341fea571ec8b060d982fec41588fe96dd5184aad81bc4ccc2001de3",
+    "4bfad90e7d.json": "b5cc2626a45f31d76a891f963be06b4e9a25ecb82eb006dc26f80f8245f07fe3",
+    "55f92087fe.json": "93b88c2e5096774ce3820b22bfd82e3953b3a9a88f4bbca7454d24787d87a65a",
+    "56c4c96f4d.json": "3bb9345339c4b4accd89962b48e6ac76475569007dc04f9a917713a26d094baf",
+    "66e24fb325.json": "e5761885719e0c4ffa4947dd34cd44ced88449248fdb9b91a53e30cfab55407d",
+    "7e37094135.json": "943680176a9d2de1932765755e03504812e2af61731b0c82e944679579aa466e",
+    "9b0d8af264.json": "6e4ac15c32e0b287c88eea1c3bef7389a3d28d57af055196facc7f9cb84def4d",
+    "b1bff054bc.json": "0d4f5953144dfec165d2af272c7fedc4486309aa63ba84e46f0d48c9fbb070d1",
+    "bcf67c20f4.json": "0ddc91777ef91335a8f726161a14d74c81eeed3eaa3bd6c01618d78c34111709",
+    "c01bb06237.json": "265abc54d84669086247bac340c0cac8af23b0eb9aceeb12e9b44d17e3074cc2",
+    "c32e399edc.json": "97a5088675d9ae48646ee9ebb9066cb1e06abd904a47c2682c6cc8a3be9bc1ce",
+    "db3f45c980.json": "bf8651abf1328d843d922ba91d8bad430eaecd76c1ba45f88e3e4b5c44d2c611"
+  },
+  "export_changes": [
+    "Removed CLI command arrays containing local absolute paths from attempt receipts.",
+    "Omitted diagnostic event streams, account/task identifiers and private source conversations.",
+    "Replay runtime ends before live CLI transport; pure engine files and prompt construction unchanged."
+  ],
+  "original_runtime_hashes": {
+    "runtime/assets/decision.md": "e95484850a05aa3082bf018fb44903be4776683054c3d940187aa31c4058f76a",
+    "runtime/assets/explore.md": "8dbf560bfb2e7bf9299861b5e1e9542392ee4898421ab435bf6001d94ff26b1e",
+    "runtime/assets/protocol.md": "ba9674add78ffeda6b5d38a9d25f39ac97d26d5144a0334705a89bfeb14ed960",
+    "runtime/check_runtime.py": "92edf8c0cdb659ee1c08909f7468f03ba76947e0bd75c24175c7d1e5f4f3cb5a",
+    "runtime/trial.py": "a3b0578a1769e1d73fd06b23d45ec75ef7636ee8b9f42fc7ca783d8a36406717",
+    "runtime/vendor/a/engine.py": "de6280bc6cfc60bef53038e49e50e982ccea6b85c45c1896b85b321543227618",
+    "runtime/vendor/b/simulator.py": "81d48c98fc457fc13f5d14dd2e88820e0f789cb86ec6db5d3f78552628ce1e13"
+  }
+}

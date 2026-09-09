@@ -1,0 +1,118 @@
+{
+  "version": "pilot-002/v0.2",
+  "created_at": "2026-09-09T03:43:55.185597+00:00",
+  "model": "gpt-6-astra",
+  "reasoning": "high",
+  "rounds_per_game": 2,
+  "basic_decisions": 96,
+  "format_retries_per_decision": 1,
+  "technical_retries_per_decision": 1,
+  "order_seed": 20260909,
+  "games": [
+    {
+      "world": "A",
+      "state": 0,
+      "pair": "BB",
+      "id": "08b9df0fe3"
+    },
+    {
+      "world": "B",
+      "state": 0,
+      "pair": "BB",
+      "id": "13e4f1aa07"
+    },
+    {
+      "world": "A",
+      "state": 1,
+      "pair": "UB",
+      "id": "c32e399edc"
+    },
+    {
+      "world": "A",
+      "state": 1,
+      "pair": "BB",
+      "id": "7e37094135"
+    },
+    {
+      "world": "A",
+      "state": 1,
+      "pair": "UU",
+      "id": "55f92087fe"
+    },
+    {
+      "world": "B",
+      "state": 0,
+      "pair": "UU",
+      "id": "242878c6c5"
+    },
+    {
+      "world": "B",
+      "state": 1,
+      "pair": "BB",
+      "id": "c01bb06237"
+    },
+    {
+      "world": "A",
+      "state": 1,
+      "pair": "BU",
+      "id": "66e24fb325"
+    },
+    {
+      "world": "B",
+      "state": 1,
+      "pair": "UB",
+      "id": "9b0d8af264"
+    },
+    {
+      "world": "A",
+      "state": 0,
+      "pair": "UB",
+      "id": "15bce6998f"
+    },
+    {
+      "world": "B",
+      "state": 0,
+      "pair": "UB",
+      "id": "b1bff054bc"
+    },
+    {
+      "world": "B",
+      "state": 1,
+      "pair": "BU",
+      "id": "02d9c1634b"
+    },
+    {
+      "world": "B",
+      "state": 0,
+      "pair": "BU",
+      "id": "bcf67c20f4"
+    },
+    {
+      "world": "A",
+      "state": 0,
+      "pair": "UU",
+      "id": "db3f45c980"
+    },
+    {
+      "world": "B",
+      "state": 1,
+      "pair": "UU",
+      "id": "4bfad90e7d"
+    },
+    {
+      "world": "A",
+      "state": 0,
+      "pair": "BU",
+      "id": "56c4c96f4d"
+    }
+  ],
+  "runtime_hashes": {
+    "runtime/assets/decision.md": "e95484850a05aa3082bf018fb44903be4776683054c3d940187aa31c4058f76a",
+    "runtime/assets/explore.md": "8dbf560bfb2e7bf9299861b5e1e9542392ee4898421ab435bf6001d94ff26b1e",
+    "runtime/assets/protocol.md": "ba9674add78ffeda6b5d38a9d25f39ac97d26d5144a0334705a89bfeb14ed960",
+    "runtime/trial.py": "aa1e546000317d0ece74a124b779d73405c7cec038535eb4a9913a732664d73b",
+    "runtime/vendor/a/engine.py": "de6280bc6cfc60bef53038e49e50e982ccea6b85c45c1896b85b321543227618",
+    "runtime/vendor/b/simulator.py": "81d48c98fc457fc13f5d14dd2e88820e0f789cb86ec6db5d3f78552628ce1e13"
+  },
+  "export_note": "Public replay export. runtime_hashes refer to exported runtime; original hashes in provenance.json."
+}

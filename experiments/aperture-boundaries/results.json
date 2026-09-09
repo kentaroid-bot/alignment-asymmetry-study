@@ -1,0 +1,139 @@
+{
+  "source_commit": "d2852300dd69b1b08c89b0b537970e112496e697",
+  "node_version": "v24.19.0",
+  "source_hashes": {
+    "constitution.ts": "6f390f0cc55ff38383ba248c69f358e2f802ba7d5db92a45d8edccd72848d204",
+    "consensus.ts": "6c75829345cc67df5e58ec07b70c22901643995fb5ee334e5b77d1f01ac06992",
+    "safety.ts": "3acc2e48c9c3810ba82fccd40161b31f486b0f434f7763c2e18c9339155c82d4"
+  },
+  "scope": "Domain function input boundaries; not an end-to-end UI or deployed exploit test.",
+  "test_selection": "Exploratory, selected after source inspection; not a representative or preregistered sample of all requirements.",
+  "results": [
+    {
+      "name": "reject_blocked_exit",
+      "expression": "inspectPatch({blocksExit:true},\"member\").ok",
+      "expected": false,
+      "observed": false,
+      "property_holds": true
+    },
+    {
+      "name": "reject_sos_disable",
+      "expression": "inspectPatch({disablesSos:true},\"member\").ok",
+      "expected": false,
+      "observed": false,
+      "property_holds": true
+    },
+    {
+      "name": "reject_private_sharing_without_consent",
+      "expression": "inspectPatch({sharesPrivateMonkuOf:[\"n1\"]},\"member\").ok",
+      "expected": false,
+      "observed": false,
+      "property_holds": true
+    },
+    {
+      "name": "accept_consented_private_sharing",
+      "expression": "inspectPatch({sharesPrivateMonkuOf:[\"n1\"]},\"member\",[\"n1\"]).ok",
+      "expected": true,
+      "observed": true,
+      "property_holds": true
+    },
+    {
+      "name": "reject_removed_veto",
+      "expression": "inspectPatch({removesProtectedVeto:true},\"member\").ok",
+      "expected": false,
+      "observed": false,
+      "property_holds": true
+    },
+    {
+      "name": "reject_ai_activation",
+      "expression": "inspectPatch({status:\"active\"},\"ai\").ok",
+      "expected": false,
+      "observed": false,
+      "property_holds": true
+    },
+    {
+      "name": "reject_automatic_physical_restriction",
+      "expression": "inspectPatch({automaticPhysicalRestriction:true},\"member\").ok",
+      "expected": false,
+      "observed": false,
+      "property_holds": true
+    },
+    {
+      "name": "reject_audit_deletion",
+      "expression": "inspectPatch({requiresAuditDeletion:true},\"member\").ok",
+      "expected": false,
+      "observed": false,
+      "property_holds": true
+    },
+    {
+      "name": "reject_missing_ttl",
+      "expression": "inspectLease({scope:[\"safety-check\"],purpose:\"check\"}).ok",
+      "expected": false,
+      "observed": false,
+      "property_holds": true
+    },
+    {
+      "name": "accept_valid_lease",
+      "expression": "inspectLease(validLease).ok",
+      "expected": true,
+      "observed": true,
+      "property_holds": true
+    },
+    {
+      "name": "expire_valid_lease",
+      "expression": "leaseState(validLease,new Date(\"2026-01-01T00:06:00Z\"))",
+      "expected": "expired",
+      "observed": "expired",
+      "property_holds": true
+    },
+    {
+      "name": "reject_automatic_renewal",
+      "expression": "(()=>{try{renewLease();return false}catch{return true}})()",
+      "expected": true,
+      "observed": true,
+      "property_holds": true
+    },
+    {
+      "name": "reject_rights_change_without_owner",
+      "expression": "evaluateConsensus({kind:\"shared-resource\",affectedNodes:nodes,consents:votes([\"n1\",\"n2\"]),rightsRestrictedFor:[\"n3\"]}).accepted",
+      "expected": false,
+      "observed": false,
+      "property_holds": true
+    },
+    {
+      "name": "accept_qualified_majority",
+      "expression": "evaluateConsensus({kind:\"shared-resource\",affectedNodes:nodes,consents:votes([\"n1\",\"n2\"])}).accepted",
+      "expected": true,
+      "observed": true,
+      "property_holds": true
+    },
+    {
+      "name": "reject_nonmember_votes",
+      "expression": "evaluateConsensus({kind:\"shared-resource\",affectedNodes:nodes,consents:votes([\"outsider1\",\"outsider2\"])}).accepted",
+      "expected": false,
+      "observed": true,
+      "property_holds": false
+    },
+    {
+      "name": "reject_same_subject_and_verifier",
+      "expression": "canSafetySubjectSelfRelease(\"n1\",[\"n1\"],\"n1\")",
+      "expected": false,
+      "observed": true,
+      "property_holds": false
+    },
+    {
+      "name": "reject_invalid_date_strings",
+      "expression": "inspectLease({...validLease,issuedAt:\"invalid\",expiresAt:\"invalid\"}).ok",
+      "expected": false,
+      "observed": true,
+      "property_holds": false
+    },
+    {
+      "name": "invalid_expiry_not_active",
+      "expression": "leaseState({...validLease,expiresAt:\"invalid\"},new Date(\"2026-01-01T00:06:00Z\"))!==\"active\"",
+      "expected": true,
+      "observed": false,
+      "property_holds": false
+    }
+  ]
+}

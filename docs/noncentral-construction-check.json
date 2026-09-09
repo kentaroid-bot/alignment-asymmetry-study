@@ -1,0 +1,158 @@
+{
+  "analysis_status": "Post-hoc construction, separate from preregistered model trials.",
+  "scope": "Each of H and Z separately; identical initial resources, voluntary own investment.",
+  "assumptions": [
+    "Initial supply contract is fulfilled in episode 1.",
+    "Investment 6 succeeds at the stated cost and raises owned capacity to 6.",
+    "Need and production stay 6; no extra shocks, maintenance costs, transfers or confiscation.",
+    "The actor can continue using its equipment and knowledge."
+  ],
+  "invariant": {
+    "base_stock_end_episode_1": 6,
+    "step_stock_change_after_supply_stop": 0,
+    "argument": "Base B(1)=6. For all t>=1, B(t+1)=B(t)+6-6=B(t), so B(t)=6 and unmet need is zero under the assumptions."
+  },
+  "construction": [
+    {
+      "episode": 1,
+      "supply": 2,
+      "investment": 6,
+      "closing": 6,
+      "capacity_next": 6.0,
+      "unmet": 0
+    },
+    {
+      "episode": 2,
+      "supply": 0,
+      "investment": 0,
+      "closing": 6.0,
+      "capacity_next": 6.0,
+      "unmet": 0
+    },
+    {
+      "episode": 3,
+      "supply": 0,
+      "investment": 0,
+      "closing": 6.0,
+      "capacity_next": 6.0,
+      "unmet": 0
+    },
+    {
+      "episode": 4,
+      "supply": 0,
+      "investment": 0,
+      "closing": 6.0,
+      "capacity_next": 6.0,
+      "unmet": 0
+    },
+    {
+      "episode": 5,
+      "supply": 0,
+      "investment": 0,
+      "closing": 6.0,
+      "capacity_next": 6.0,
+      "unmet": 0
+    },
+    {
+      "episode": 6,
+      "supply": 0,
+      "investment": 0,
+      "closing": 6.0,
+      "capacity_next": 6.0,
+      "unmet": 0
+    },
+    {
+      "episode": 7,
+      "supply": 0,
+      "investment": 0,
+      "closing": 6.0,
+      "capacity_next": 6.0,
+      "unmet": 0
+    },
+    {
+      "episode": 8,
+      "supply": 0,
+      "investment": 0,
+      "closing": 6.0,
+      "capacity_next": 6.0,
+      "unmet": 0
+    }
+  ],
+  "no_investment_counterfactual": [
+    {
+      "episode": 1,
+      "supply": 2,
+      "investment": 0,
+      "closing": 12,
+      "capacity_next": 4.0,
+      "unmet": 0
+    },
+    {
+      "episode": 2,
+      "supply": 0,
+      "investment": 0,
+      "closing": 10.0,
+      "capacity_next": 4.0,
+      "unmet": 0
+    },
+    {
+      "episode": 3,
+      "supply": 0,
+      "investment": 0,
+      "closing": 8.0,
+      "capacity_next": 4.0,
+      "unmet": 0
+    },
+    {
+      "episode": 4,
+      "supply": 0,
+      "investment": 0,
+      "closing": 6.0,
+      "capacity_next": 4.0,
+      "unmet": 0
+    },
+    {
+      "episode": 5,
+      "supply": 0,
+      "investment": 0,
+      "closing": 4.0,
+      "capacity_next": 4.0,
+      "unmet": 0
+    },
+    {
+      "episode": 6,
+      "supply": 0,
+      "investment": 0,
+      "closing": 2.0,
+      "capacity_next": 4.0,
+      "unmet": 0
+    },
+    {
+      "episode": 7,
+      "supply": 0,
+      "investment": 0,
+      "closing": 0.0,
+      "capacity_next": 4.0,
+      "unmet": 0
+    },
+    {
+      "episode": 8,
+      "supply": 0,
+      "investment": 0,
+      "closing": 0.0,
+      "capacity_next": 4.0,
+      "unmet": 2.0
+    }
+  ],
+  "checks": {
+    "initial_stock_is_6": true,
+    "computed_construction_keeps_stock": true,
+    "counterfactual_first_shortage_episode_8": true
+  },
+  "limits": [
+    "The induction is conditional, not inferred from eight successful observations.",
+    "This is not an observed N/U comparison: N can also invest.",
+    "No claim of protection against equipment seizure, all forms of domination, or real-world feasibility.",
+    "Ordinary self-provision is not a new mechanism invented by these protocols. Their role in generating or implementing it is a separate question."
+  ]
+}

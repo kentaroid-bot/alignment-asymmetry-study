@@ -1,0 +1,10 @@
+{
+  "outputs": 112,
+  "reconstructed_world_prompts": 108,
+  "reconstructed_planning_prompts": 4,
+  "errors": [],
+  "actor_character_limit_excess": [],
+  "world_character_limit_excess": [],
+  "planning_character_limit_excess": [],
+  "meaning": "Mechanical record consistency only. Ledger findings are in audit.json; social causality and real consent remain unverified."
+}

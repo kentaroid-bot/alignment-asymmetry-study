@@ -1,0 +1,31 @@
+{
+  "review": "Astraによる原文の読解。独立した言語評価ではない。",
+  "confirmed_deviations": [
+    {
+      "id": "D-UU-1-world",
+      "field": "narrative",
+      "description": "中国語による段落"
+    },
+    {
+      "id": "S-NN-3-Q",
+      "field": "public_proposal",
+      "description": "冒頭に中国語が混在"
+    },
+    {
+      "id": "O-NU-1-world",
+      "field": "narrative",
+      "description": "主に中国語による段落"
+    },
+    {
+      "id": "O-UU-3-world",
+      "field": "narrative",
+      "description": "冒頭に中国語が混在"
+    },
+    {
+      "id": "D-NU-1-Q",
+      "field": "public_proposal",
+      "description": "冒頭ラベルの「现在」"
+    }
+  ],
+  "handling": "再生成・原回答の修正なし。JSON・文字数・算術の検査とは分離。"
+}

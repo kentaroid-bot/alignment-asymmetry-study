@@ -47,3 +47,7 @@ The translation was compared against all 124 blank-line-separated source blocks 
 Astra performed translation and checking without delegating to another model or subagent. The checks detect structural omissions, transcription errors, and broken local references; they do not constitute independent linguistic or scientific review. Future corrections should identify which source version is affected and preserve the distinction between a translation correction and a change to research claims.
 
 The maintainer also requested outreach drafts. Those drafts are held locally and are not included in this public translation package.
+
+## Publication Update — September 9, 2026
+
+After the initial translation package, the maintainer requested publication of the introductory article and general-reader Q&A in both languages. These four documents are now in [outreach/](../outreach/) and linked from both READMEs. The earlier statement that outreach drafts were held locally describes the initial publication scope. X post drafts remain local. The article and Q&A texts are unchanged from the prepared drafts; no Medium, monku.ai, or X posting is included in this update.

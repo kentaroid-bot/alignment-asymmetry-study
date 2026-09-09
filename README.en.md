@@ -12,6 +12,13 @@ The initial study includes observations of no increase, and sometimes a decrease
 
 In hypothetical future F1, if self-funded expansion brings production into balance with requirements and equipment ownership continues, minimum activities can be maintained after Q stops supplying, without forced central redistribution. This is a conditional feasibility construction in a limited supply model. Effective consent, execution, equipment ownership, and dependence on the world narrator's judgments remain unresolved for protection across the whole system. Superiority over centralization or real-world defensive advantage has not been demonstrated.
 
+## For General Readers
+
+| Material | English | 日本語 |
+| --- | --- | --- |
+| Introductory article | [What Would It Take to Protect the Freedom to Keep Creating?](outreach/article.en.md) | [問い続け、作り続ける自由を、どう守るか](outreach/article.ja.md) |
+| Questions and answers (16 questions) | [English Q&A](outreach/qa.en.md) | [日本語Q&A](outreach/qa.ja.md) |
+
 ## Papers and Versions
 
 - [v2.0 — English full text](manuscript/paper.en.md): *Can Inquiry and Provision Continue Without Centralizing Authority?*

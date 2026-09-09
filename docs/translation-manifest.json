@@ -31,11 +31,11 @@
   ],
   "english_sha256": {
     "NOTICE.en.md": "2be8dc3176e6725a24ef06e8f73caca5b09bf016a56ff770b1620ded076ff67c",
-    "README.en.md": "6f13d4ffdfa77fb7c78d173c6718b8348c030d0aa4ebd72bdc7627b0ddcf94c3",
+    "README.en.md": "eb7daecd286a5fce3719a7877787cb2c7b19815984abf73c181939d7fd11fd1d",
     "docs/hypothetical-futures.en.md": "0956b308c8b351dff0e7b6ab1ae5c9e45f7f5b8339867cb0b542ac9379549498",
     "docs/noncentral-protection.en.md": "6c06b81d718fd9d04848298ca949671d1fc7c993e99ade99eae268b63a376dd7",
     "docs/revision-v2.en.md": "f7428b1e7b83c258e0e584b186915d25a167e302d40fd1a28f17ed87ca99f67a",
-    "docs/translation-notes.en.md": "84db50eb1c4ffeeed4fbac71a36f1533e268de37b36f1ee4b47c12647e1328b7",
+    "docs/translation-notes.en.md": "df618b3e84e05d60f47a85350cca8333c5748e6311cf324c8b616cc687eb1fb6",
     "manuscript/paper.en.md": "95e2bdc5f134c9975b281493c8c58effa3fe5cae0168d75f5d45f57c6baf48d3",
     "manuscript/paper.v1.en.md": "8883ff32b8f2656f7ce50d8a24361e8d1bc86a9fa8b5818f2b5e35a3211d37fb"
   },
@@ -45,5 +45,17 @@
     "source_citation_targets_match_except_documented_navigation_changes": true,
     "private_path_or_placeholder_candidates": 0,
     "original_manuscript_pdf_figures_unchanged": true
-  }
+  },
+  "publication_updates": [
+    {
+      "date": "2026-09-09",
+      "kind": "Publish existing general-reader article and Q&A in Japanese and English",
+      "base_commit": "710610c58215c61f9afae9f32e60fbc09649d1f5",
+      "previous_english_sha256": {
+        "README.en.md": "6f13d4ffdfa77fb7c78d173c6718b8348c030d0aa4ebd72bdc7627b0ddcf94c3",
+        "docs/translation-notes.en.md": "84db50eb1c4ffeeed4fbac71a36f1533e268de37b36f1ee4b47c12647e1328b7"
+      },
+      "note": "Only reader navigation and the publication-scope note change in the original English package. Both English manuscripts and their source identities remain unchanged."
+    }
+  ]
 }

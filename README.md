@@ -12,6 +12,13 @@
 
 仮未来F1では、自費増設後の生産と必要量が釣り合い、設備保有が続くなら、Qの供給停止後も中央の強制再配分なしに最低活動を保てます。これは限定された供給模型の条件付き成立例です。体系全体の非中央集権的保護には、同意・実行・設備保有の実効性、世界記述者の判断への依存が残ります。中央集権への優越や現実での防御優位は示していません。
 
+## 一般向けに読む
+
+| 資料 | 日本語 | English |
+| --- | --- | --- |
+| 一般向け解説 | [問い続け、作り続ける自由を、どう守るか](outreach/article.ja.md) | [What Would It Take to Protect the Freedom to Keep Creating?](outreach/article.en.md) |
+| 一般向けQ&A（16問） | [日本語Q&A](outreach/qa.ja.md) | [English Q&A](outreach/qa.en.md) |
+
 ## 論文と版
 
 - [v2.0の日本語本文](manuscript/paper.ja.md) / [英語全文](manuscript/paper.en.md)

@@ -1,0 +1,582 @@
+{
+  "assumptions": {
+    "need": 6,
+    "gross": 12,
+    "grid": "4 reserves x 4 exit costs x 5 alternatives",
+    "meaning": "Affordable sufficient alternative bounds extractable dependency rent under the stated participation constraint. No Unflatten effect is estimated."
+  },
+  "rows": [
+    {
+      "reserve": 0,
+      "exit_cost": 0,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 0,
+      "alternative": 6,
+      "exit_feasible": true,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 0,
+      "alternative": 8,
+      "exit_feasible": true,
+      "dependency_rent_bound": 4
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 0,
+      "alternative": 10,
+      "exit_feasible": true,
+      "dependency_rent_bound": 2
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 0,
+      "alternative": 12,
+      "exit_feasible": true,
+      "dependency_rent_bound": 0
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 4,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 4,
+      "alternative": 6,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 4,
+      "alternative": 8,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 4,
+      "alternative": 10,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 4,
+      "alternative": 12,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 12,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 12,
+      "alternative": 6,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 12,
+      "alternative": 8,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 12,
+      "alternative": 10,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 12,
+      "alternative": 12,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 24,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 24,
+      "alternative": 6,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 24,
+      "alternative": 8,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 24,
+      "alternative": 10,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 0,
+      "exit_cost": 24,
+      "alternative": 12,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 0,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 0,
+      "alternative": 6,
+      "exit_feasible": true,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 0,
+      "alternative": 8,
+      "exit_feasible": true,
+      "dependency_rent_bound": 4
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 0,
+      "alternative": 10,
+      "exit_feasible": true,
+      "dependency_rent_bound": 2
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 0,
+      "alternative": 12,
+      "exit_feasible": true,
+      "dependency_rent_bound": 0
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 4,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 4,
+      "alternative": 6,
+      "exit_feasible": true,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 4,
+      "alternative": 8,
+      "exit_feasible": true,
+      "dependency_rent_bound": 4
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 4,
+      "alternative": 10,
+      "exit_feasible": true,
+      "dependency_rent_bound": 2
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 4,
+      "alternative": 12,
+      "exit_feasible": true,
+      "dependency_rent_bound": 0
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 12,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 12,
+      "alternative": 6,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 12,
+      "alternative": 8,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 12,
+      "alternative": 10,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 12,
+      "alternative": 12,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 24,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 24,
+      "alternative": 6,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 24,
+      "alternative": 8,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 24,
+      "alternative": 10,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 6,
+      "exit_cost": 24,
+      "alternative": 12,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 0,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 0,
+      "alternative": 6,
+      "exit_feasible": true,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 0,
+      "alternative": 8,
+      "exit_feasible": true,
+      "dependency_rent_bound": 4
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 0,
+      "alternative": 10,
+      "exit_feasible": true,
+      "dependency_rent_bound": 2
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 0,
+      "alternative": 12,
+      "exit_feasible": true,
+      "dependency_rent_bound": 0
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 4,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 4,
+      "alternative": 6,
+      "exit_feasible": true,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 4,
+      "alternative": 8,
+      "exit_feasible": true,
+      "dependency_rent_bound": 4
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 4,
+      "alternative": 10,
+      "exit_feasible": true,
+      "dependency_rent_bound": 2
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 4,
+      "alternative": 12,
+      "exit_feasible": true,
+      "dependency_rent_bound": 0
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 12,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 12,
+      "alternative": 6,
+      "exit_feasible": true,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 12,
+      "alternative": 8,
+      "exit_feasible": true,
+      "dependency_rent_bound": 4
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 12,
+      "alternative": 10,
+      "exit_feasible": true,
+      "dependency_rent_bound": 2
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 12,
+      "alternative": 12,
+      "exit_feasible": true,
+      "dependency_rent_bound": 0
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 24,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 24,
+      "alternative": 6,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 24,
+      "alternative": 8,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 24,
+      "alternative": 10,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 12,
+      "exit_cost": 24,
+      "alternative": 12,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 0,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 0,
+      "alternative": 6,
+      "exit_feasible": true,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 0,
+      "alternative": 8,
+      "exit_feasible": true,
+      "dependency_rent_bound": 4
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 0,
+      "alternative": 10,
+      "exit_feasible": true,
+      "dependency_rent_bound": 2
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 0,
+      "alternative": 12,
+      "exit_feasible": true,
+      "dependency_rent_bound": 0
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 4,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 4,
+      "alternative": 6,
+      "exit_feasible": true,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 4,
+      "alternative": 8,
+      "exit_feasible": true,
+      "dependency_rent_bound": 4
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 4,
+      "alternative": 10,
+      "exit_feasible": true,
+      "dependency_rent_bound": 2
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 4,
+      "alternative": 12,
+      "exit_feasible": true,
+      "dependency_rent_bound": 0
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 12,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 12,
+      "alternative": 6,
+      "exit_feasible": true,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 12,
+      "alternative": 8,
+      "exit_feasible": true,
+      "dependency_rent_bound": 4
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 12,
+      "alternative": 10,
+      "exit_feasible": true,
+      "dependency_rent_bound": 2
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 12,
+      "alternative": 12,
+      "exit_feasible": true,
+      "dependency_rent_bound": 0
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 24,
+      "alternative": 4,
+      "exit_feasible": false,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 24,
+      "alternative": 6,
+      "exit_feasible": true,
+      "dependency_rent_bound": 6
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 24,
+      "alternative": 8,
+      "exit_feasible": true,
+      "dependency_rent_bound": 4
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 24,
+      "alternative": 10,
+      "exit_feasible": true,
+      "dependency_rent_bound": 2
+    },
+    {
+      "reserve": 24,
+      "exit_cost": 24,
+      "alternative": 12,
+      "exit_feasible": true,
+      "dependency_rent_bound": 0
+    }
+  ],
+  "feasible": 40,
+  "lower_bound": 30,
+  "zero_bound": 10,
+  "countermodel": {
+    "description": "A harmful institution with continuing voluntary internal production can benefit from lower internal coordination costs, while external harm is unchanged.",
+    "internal_output": 12,
+    "maintenance_before": 4,
+    "maintenance_after": 2,
+    "surplus_before": 8,
+    "surplus_after": 10,
+    "status": "Logical countermodel to open-ended continuation alone implying no UMH benefit. NOT an observed Unflatten improvement."
+  }
+}
